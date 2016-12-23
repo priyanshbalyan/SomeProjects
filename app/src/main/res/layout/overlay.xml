@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:weightSum="100">
+
+		<ImageView
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:src="@drawable/back"
+			android:layout_weight="20"
+			android:id="@+id/ivback"/>
+
+		<ImageView
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:src="@drawable/forward"
+			android:layout_weight="20"
+			android:id="@+id/ivforward"/>
+
+		<ImageView
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:src="@drawable/refresh"
+			android:layout_weight="20"
+			android:id="@+id/ivrefresh"/>
+
+		<ImageView
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:src="@drawable/history"
+			android:layout_weight="20"
+			android:id="@+id/ivhistory"/>
+		
+		<ImageView
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:src="@drawable/move"
+			android:layout_weight="20"
+			android:id="@+id/ivmove"/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:weightSum="100">
+
+		<EditText
+			android:layout_height="40dp"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:hint="Search or Enter URL"
+			android:layout_weight="90"
+			android:inputType="textEmailAddress"
+			android:background="#DEDEDE"
+			android:id="@+id/eturl"/>
+
+		<ImageView
+			android:layout_height="40dp"
+			android:layout_width="40dp"
+			android:src="@drawable/go"
+			android:layout_weight="10"
+			android:id="@+id/ivgo"/>
+	</LinearLayout>
+	
+	<WebView
+		android:layout_width="wrap_content"
+		android:layout_height="200dp"
+		android:id="@+id/wvbrowser">
+
+	</WebView>
+
+</LinearLayout>
+

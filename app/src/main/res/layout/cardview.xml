@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context=".CardViewExample"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.RecyclerView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingTop="120dp"
+		android:paddingBottom="120dp"
+		android:clipToPadding="false"
+		android:id="@+id/recyclerview"
+		android:paddingLeft="4dp"
+		android:paddingRight="4dp"/>
+
+</FrameLayout>
+

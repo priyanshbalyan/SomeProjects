@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".AsyncTaskExample"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/tv_time"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#444444"
+		android:text="Sleep time in milliseconds:"/>
+
+	<EditText
+		android:id="@+id/ettime"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:background="@android:drawable/editbox_background"
+		android:inputType="number"/>
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:id="@+id/bstartasynctask"
+		android:layout_width="200dip"
+		android:layout_height="wrap_content"
+		android:text="Run Async task"/>
+
+	<TextView
+		android:id="@+id/tvresult"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#AA0000"
+		android:text=""
+		android:textSize="20sp"/>
+
+</LinearLayout>
+

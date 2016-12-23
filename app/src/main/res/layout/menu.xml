@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+		android:id="@+id/aboutme"
+		android:title="About Me"/>
+	
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/red"
+			android:title="Red"
+			android:showAsAction="never"
+			android:orderInCategory="1"/>
+		<item
+			android:id="@+id/blue"
+			android:title="Blue"
+			android:showAsAction="never"
+			android:orderInCategory="2"/>
+		<item
+			android:id="@+id/green"
+			android:title="Green"
+			android:showAsAction="never"
+			android:orderInCategory="3"/>
+		
+	</group>
+	
+</menu>

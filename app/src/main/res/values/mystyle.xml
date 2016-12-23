@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<resources>
+		<style name="mycolorstyle">
+			<item name="android:textColor">#efefef</item>
+			<item name="android:background">#006699</item>
+		</style>
+		
+		<style name="mycolorstyle.largesize">
+			<item name="android:textSize">20sp</item>
+		</style>
+		
+		<color name="mybackgroundcolor">#009900</color>
+		
+		<style name="mytheme" parent="android:Theme.Light">
+			<item name="android:background">@color/windowBackground</item>
+		</style>
+	</resources>

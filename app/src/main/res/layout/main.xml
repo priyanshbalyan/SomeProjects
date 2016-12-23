@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:layout_gravity="center_horizontal">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:id="@+id/ll">
+
+			<Button
+				style="@style/mycolorstyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Start Floating Browser"
+				android:id="@+id/bstart"
+				android:ellipsize="start"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Start Property animation"
+				android:id="@+id/bpa"/>
+
+			<Button
+				style="@style/mycolorstyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Start Animation"
+				android:id="@+id/banim"
+				android:ellipsize="middle"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Card View"
+				android:id="@+id/bcardview"/>
+
+			<Button
+				style="@style/mycolorstyle.largesize"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Start Image Effects"
+				android:id="@+id/bimageeffects"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Gesture controls"
+				android:id="@+id/bgesture"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Start Asynctask"
+				android:id="@+id/bast"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="start fragment"
+				android:id="@+id/bstartfragment"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Start Broadcast Intent"
+				android:id="@+id/bstartbintent"
+				android:onClick="startBroadcast"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="start thread"
+				android:onClick="startThread"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Start Notification"
+				android:id="@+id/bstartNotification"
+				android:onClick="startNotification"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="start toolbar"
+				android:onClick="startToolbar"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="start material tabs"
+				android:onClick="startMaterialTabs"/>
+
+			<Button
+				style="?android:attr/buttonBarButtonStyle"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Start Folder List"
+				android:onClick="startFolderList"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
